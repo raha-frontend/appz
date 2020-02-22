@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    background-repeat: no-repeat;
+    background-image: url(./images/intro-bg.jpg);
+    background-position: center top;
+    background-color: #fff;
+}
+
+.container {
+    width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid red;
+}
+
+.intro {
+    padding-top: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hand-iphone {
+    background-repeat: no-repeat;
+    width: 439px;
+    height: 507px;
+    background-image: url(./images/hand-iphone.png);
+}
+
+.intro-content {
+    width: 380px;
+    color: #fff;
+    padding-top: 57px;
+}
+
+.intro-title {
+    font-size: 60px;
+    margin-bottom: 41px;
+}
+
+.intro-description {
+    font-size: 24px;
+    margin-bottom: 37px;
+}
+
+.intro-btn {
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 18px;
+    padding: 18px 24px;
+    background-color: #f12078;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-decoration: none;
+}
+  
+
+.slider {
+    height: 208px;
+    background-color: #eee;
+    margin-bottom: 61px;
+}
+
+.get-your-free {
+    height: 53px;
+    background-color: #f12078;
+}
