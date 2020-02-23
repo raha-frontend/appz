@@ -71,9 +71,80 @@ body {
   
 
 .slider {
-    height: 208px;
-    background-color: #eee;
     margin-bottom: 61px;
+    margin-top: -44px;
+    position: relative;
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 90px;
+    width: 37px;
+    height: 57px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+}
+
+.slider-prev {
+    background-image: url(./images/slider-prev.png);
+    left: -90px;
+}
+
+.slider-next {
+    background-image: url(./images/slider-next.png);
+    right: -90px;
+}
+
+.slider-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-item {
+    background-color: #fff;
+    padding: 20px 20px 0;
+    width: 220px;
+}
+
+.slider-img, .slider-title, .slider-text {
+    opacity: 0.5;
+}
+
+.slider-img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.slider-title {
+    font-size: 16px;
+    color: #171717;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.slider-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #c6c6c6;
+}
+
+.slider-text {
+    font-size: 12px;
+    color: #5f5f5f;
+}
+
+.slider-item.active * {
+    opacity: 1;
+}
+
+.slider-item.active .slider-title::after {
+    background-color: #f5227d;
 }
 
 .get-your-free {
