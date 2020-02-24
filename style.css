@@ -25,7 +25,6 @@ body {
     padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px solid red;
 }
 
 .intro {
@@ -148,6 +147,102 @@ body {
 }
 
 .get-your-free {
-    height: 53px;
-    background-color: #f12078;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 63px;
 }
+
+.get-your-free a {
+    background-color: #f12078;
+    display: block;
+    margin-left: 30px;
+    margin-right: 40px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 24px;
+    padding: 15px 30px;
+}
+
+.get-your-free span {
+    font-size: 24px;
+    color: #1e1f22;
+}
+
+.get-your-free span b {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ee1f77;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #2c2d31;
+    padding-bottom: 20px;
+}
+
+.benefits-device {
+    min-height: 578px;
+    position: relative;
+    width: 412px;
+}
+
+.benefits-device img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.iphone-5-black {
+    z-index: 2;
+}
+
+.iphone-5-white {
+    z-index: 1;
+    transform: translateX(135px);
+    transition: transform 1s;
+    transition-delay: 1s;
+}
+
+.benefits-list {
+    width: 460px;
+    padding-top: 9px;
+}
+
+.benefits-item {
+    margin-bottom: 5px;
+}
+
+.benefits-title {
+    margin-bottom: 18px;
+    font-size: 24px;
+    color: #2e2e2e;
+    line-height: 30px;
+}
+
+.benefits-title span {
+    font-weight: 400;
+}
+
+.benefits-text {
+    font-size: 14px;
+    color: #5e5e5e;
+    line-height: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    line-height: 12px;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #2e2e2e;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #f5227d;
+}
+
