@@ -38,6 +38,15 @@ body {
     width: 439px;
     height: 507px;
     background-image: url(./images/hand-iphone.png);
+    position: relative;
+}
+
+.hand-iphone img {
+    position: absolute;
+    left: 210px;
+    top: 67px;
+    width: 163px;
+    height: 245px;
 }
 
 .intro-content {
@@ -84,6 +93,7 @@ body {
     background-repeat: no-repeat;
     border: none;
     background-color: transparent;
+    display: none;
 }
 
 .slider-prev {
@@ -114,6 +124,7 @@ body {
 .slider-img {
     width: 100%;
     margin-bottom: 12px;
+    cursor: pointer;
 }
 
 .slider-title {
